@@ -1,4 +1,13 @@
-
+def control():
+    float(1.0) = "1"
+    float(2.0) = "2"
+    float(3.0) = "3"
+    float(4.0) = "4"
+    float(5.0) = "5"
+    float(6.0) = "6"
+    float(7.0) = "7"
+    float(8.0) = "8"
+    float(9.0) = "9"
 
 def main_genres(input):
 	blues = float(1.0)
@@ -12,8 +21,8 @@ def main_genres(input):
     rock = float(9.0)
 
 def blues_subclasses(blues):
-	country_blues = float(1.)
-    delta_blues = float(2.)1
+	country_blues = float(1.1)
+    delta_blues = float(2.1)
     country = float(3.1)
     piedmont_blues = float(4.1)
     chicago_blues = float(5.1)

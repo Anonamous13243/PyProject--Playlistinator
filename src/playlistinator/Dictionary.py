@@ -1,15 +1,4 @@
 
-main_genres = {
-    "blues": float(1.0),
-    "classical": float(2.0),
-    "country": float(3.0),
-    "electronic": float(4.0),
-    "folk": float(5.0),
-    "hip_Hop": float(6.0),
-    "jazz": float(7.0),
-    "reggae": float(8.0),
-    "rock": float(9.0),
-}
 
 print(main_genres)
 
@@ -123,4 +112,16 @@ rock_subclasses = {
     "folk_rock": float(7.9),
     "progressive": float(8.9),
     "electronic_rock": float(9.9),
+}
+
+main_genres = {
+    "blues" = blues_subclasses(),
+    "classical" = classical_subclasses(),
+    "country" = country_subclasses(),
+    "electronic" = electronic_subclasses(),
+    "folk" = folk_subclasses(),
+    "hip_Hop" = hip_hop_subclasses(),
+    "jazz" = jazz_subclasses(),
+    "reggae" = reggae_subclasses(),
+    "rock" = rock_subclasses(),
 }

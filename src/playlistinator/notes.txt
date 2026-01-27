@@ -1,0 +1,17 @@
+For file communication use from, for, and in denominators
+
+ex:
+    from {intern_file} import [function]
+
+    print(function)
+
+ex:
+    if __name__ == "__main__":
+    print(main_genres)
+
+    for info in main_genres.items():
+        print(info)
+
+    for genre, serial in main_genres.items():
+        print(genre)
+        print(serial)

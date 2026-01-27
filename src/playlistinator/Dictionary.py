@@ -124,4 +124,3 @@ rock_subclasses = {
     "progressive": float(8.9),
     "electronic_rock": float(9.9),
 }
-   

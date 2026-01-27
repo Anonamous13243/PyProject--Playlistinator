@@ -1,14 +1,14 @@
 if __name__ == "__main__":
     from Dictionary import blues, classical, country, electronic, folk, hip_hop, jazz, reggae, rock
     
-    info_of_genres = blues.items, classical.items, country.items, electronic.items, folk.items, hip_hop.items, jazz.items, reggae.items, rock.items
+    info_of_genres = blues.items.split, classical.items.split, country.items.split, electronic.items.split, folk.items.split, hip_hop.items.split, jazz.items.split, reggae.items.split, rock.items.split
 
-    genre = []
-    serial = []
+    subgenre_interface = [str(info_of_genres)]
+    serial = [float(info_of_genres)]
     for i in info_of_genres:
-        genre.append(i)
+        subgenre_interface.append(i)
         serial.append(i)
-    print(genre, serial)
+    print(subgenre_interface, serial)
         
 
 '''

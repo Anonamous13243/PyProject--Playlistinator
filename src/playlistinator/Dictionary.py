@@ -111,3 +111,15 @@ rock = {
     "electronic_rock": float(9.9),
 }
 
+main_dict = {
+    "blues"
+    "classical"
+    "country"
+    "electronic"
+    "folk"
+    "hip_hop"
+    "jazz"
+    "reggae"
+    "rock"
+}
+

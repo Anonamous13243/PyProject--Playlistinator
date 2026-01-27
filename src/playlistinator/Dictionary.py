@@ -1,8 +1,5 @@
 
-
-print(main_genres)
-
-blues_subclasses ={
+blues = {
     "country_blues": float(1.1),
     "delta_blues": float(2.1),
     "country": float(3.1),
@@ -15,7 +12,7 @@ blues_subclasses ={
 }
     
 
-classical_subclasses = {
+classical = {
     "medival": float(1.2),
     "renaissance": float(2.2),
     "baroque": float(3.2),
@@ -28,7 +25,7 @@ classical_subclasses = {
 }
    
 
-country_subclasses = {
+country = {
     "love": float(1.3),
     "hard_times": float(2.3),
     "raisin_hell": float(3.3),
@@ -40,7 +37,7 @@ country_subclasses = {
 }
     
 
-electronic_subclasses = {
+electronic = {
     "electro": float(1.4),
     "dubstep": float(2.4),
     "techno": float(3.4),
@@ -52,7 +49,7 @@ electronic_subclasses = {
     "breakbeat": float(9.4),
 }
     
-folk_subclasses = {
+folk = {
     "bluegrass": float(1.5),
     "gospel": float(2.5),
     "old_time": float(3.5),
@@ -64,7 +61,7 @@ folk_subclasses = {
 }
     
 
-hip_hop_subclasses = {
+hip_hop = {
     "lofi": float(1.6),
     "trap": float(2.6),
     "phonk": float(3.6),
@@ -76,8 +73,8 @@ hip_hop_subclasses = {
 }
     
 
-jazz_subclasses = {
-        "ragtime": float(1.7),
+jazz = {
+    "ragtime": float(1.7),
     "dixieland": float(2.7),
     "swing": float(3.7),
     "bebop": float(4.7),
@@ -89,7 +86,7 @@ jazz_subclasses = {
 }
 
 
-reggae_subclasses = {
+reggae = {
     "roots": float(1.8),
     "dub": float(2.8),
     "dancehall": float(3.8),
@@ -102,8 +99,8 @@ reggae_subclasses = {
 }
     
 
-rock_subclasses = {
-     "hardcore": float(1.9),
+rock = {
+    "hardcore": float(1.9),
     "classic_rock": float(2.9),
     "punk_rock": float(3.9),
     "alternative": float(4.9),
@@ -114,14 +111,3 @@ rock_subclasses = {
     "electronic_rock": float(9.9),
 }
 
-main_genres = {
-    "blues" = blues_subclasses(),
-    "classical" = classical_subclasses(),
-    "country" = country_subclasses(),
-    "electronic" = electronic_subclasses(),
-    "folk" = folk_subclasses(),
-    "hip_Hop" = hip_hop_subclasses(),
-    "jazz" = jazz_subclasses(),
-    "reggae" = reggae_subclasses(),
-    "rock" = rock_subclasses(),
-}

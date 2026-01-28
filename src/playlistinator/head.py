@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     from Dictionary import main
     
-    for interface, serial in main.items():
+    for interface, dict_path in main.items():
         print(input("Welcome to the Playlistinator! Here you can organise your favorite songs into personal playlists! \n\
         File Directory, type the corresponding genre: \n\
         \n\
@@ -16,7 +16,8 @@ if __name__ == "__main__":
         'rock': 9.(1-9), \n\
         \n\
         Enter here: "))
-        if input == interface:
-            print(interface)
-        else:
-            print("Error! Given serial does not match corresponding dictionary cache.")
+        
+        input_path = main["blues"]["classical"]["country"]["electronic"]["folk"]["hip_hop"]["jazz"]["reggae"]["rock"]
+        
+        if input == input_path:
+            print(main[input_path])

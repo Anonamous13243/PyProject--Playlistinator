@@ -3,7 +3,7 @@ if __name__ == "__main__":
     
     for interface, serial in main.items():
         print(input("Welcome to the Playlistinator! Here you can organise your favorite songs into personal playlists! \n\
-        File Directory, type the corresonding number with 1.1 - 9.9: \n\
+        File Directory, type the corresponding genre: \n\
         \n\
         'blues': 1.(1-9),\n\
         'classical': 2.(1-9),\n\
@@ -16,5 +16,7 @@ if __name__ == "__main__":
         'rock': 9.(1-9), \n\
         \n\
         Enter here: "))
-        if interface != serial:
+        if input == interface:
+            print(interface)
+        else:
             print("Error! Given serial does not match corresponding dictionary cache.")

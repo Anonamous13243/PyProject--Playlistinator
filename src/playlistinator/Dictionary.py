@@ -1,4 +1,3 @@
-
 blues = {
     "country_blues": float(1.1),
     "delta_blues": float(2.1),
@@ -111,15 +110,15 @@ rock = {
     "electronic_rock": float(9.9),
 }
 
-main_dict = {
-    "blues"
-    "classical"
-    "country"
-    "electronic"
-    "folk"
-    "hip_hop"
-    "jazz"
-    "reggae"
-    "rock"
+main = {
+    "blues": blues,
+    "classical": classical,
+    "country": country,
+    "electronic": electronic,
+    "folk": folk,
+    "hip_hop": hip_hop,
+    "jazz": jazz,
+    "reggae": reggae,
+    "rock": rock,
 }
 

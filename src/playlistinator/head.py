@@ -1,35 +1,29 @@
+# The name check protects the program whilst debugging
 if __name__ == "__main__":
+    '''Dictionary import for user interaction''' 
     from Dictionary import main
+    index = 1
     for interface in main.keys():
-        print("Welcome to the Playlistinator! Here you can organise your favorite songs into personal playlists! \n\
-        File Directory, type the corresponding genre: \n\
-        \n\
-        --------------------------------------------------------------------------------------------------------------\n\
-        blues\n\
-        classical\n\
-        country\n\
-        electronic': 4.(1-9),\n\
-        'folk': 5.(1-9),\n\
-        'hip_hop': 6.(1-9),\n\
-        'jazz': 7.(1-9),\n\
-        'reggae': 8.(1-9),\n\
-        'rock': 9.(1-9),\n\
-        \n\
-        ---------------------------------------------------------------------------------------------------------------")
-        key = input("\n\
-        Please put quotations around your desired input. \n\
-        ")
-        print(interface.get(key))
-        for sub, serial in interface.keys():
-            print(sub)
-            print(serial)
+        print(f"{index} - {interface}")
+        index += 1
+    key = int(input("Enter the genre name by number: \n"))
+    key -= 1
+    keys = list(main.keys())
+    key = keys[key] 
+    subgenre = main.get(key)
+    for sub, serial in subgenre.items():
+        print(sub, serial)
+    '''End of first for check'''
+    user_input = main.keys()
+    serial = int(serial)
+    '''Secondary check for the subgenre, after this it will continously loop for more inputs'''
+    for serial in user_input:
+        print(input("\nNow, type the corresponding serial. \n\
+The serials (which name subclasses) should be printed above this guide. \n\
+------------------------------------\n"))
         break
-    user_input = main.keys
-    print(main[user_input])
-    for label, serial in user_input():
-        print(input("Now, type the corresponding serial. \n\
-                    The serials (which name subclasses) should be printed above this guide. \n\
-                    ------------------------------------\n\
-                    "))
-        if input == serial:
-            print(label)
+    print(f"You have selected {serial}")
+# If I were to have made a filesystem interactor the continous loop would have assigned genre interactions.
+# 
+# File organisation, and as an extension the genre organiser would have been sorted in a separate file named 'organiser',
+# but the code behind it would've taken too long.

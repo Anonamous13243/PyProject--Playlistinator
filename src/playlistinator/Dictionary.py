@@ -110,6 +110,7 @@ rock = {
     "electronic_rock": float(9.9),
 }
 
+# All other caches (above) are both nested and controlled here.
 main = {
     "blues": blues,
     "classical": classical,
@@ -121,4 +122,3 @@ main = {
     "reggae": reggae,
     "rock": rock,
 }
-

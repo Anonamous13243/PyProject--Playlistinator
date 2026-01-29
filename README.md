@@ -1,5 +1,4 @@
 # PyProject--Playlistinator
-
 Hello, and welcome to the PLAYLISTINATOR!
 
 ##

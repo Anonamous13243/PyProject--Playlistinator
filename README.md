@@ -2,8 +2,8 @@
 
 Hello, and welcome to the PLAYLISTINATOR!
 
-###
-###
+##
+##
 The playlistinator is a conceptual python driven file manipulator which uses a preset dictionary serial system.
 To use it simply port it to VS Code, then run the file named 'head' and answer the given prompts.
 

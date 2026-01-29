@@ -1,23 +1,35 @@
 if __name__ == "__main__":
     from Dictionary import main
-    
-    for interface, dict_path in main.items():
-        print(input("Welcome to the Playlistinator! Here you can organise your favorite songs into personal playlists! \n\
+    for interface in main.keys():
+        print("Welcome to the Playlistinator! Here you can organise your favorite songs into personal playlists! \n\
         File Directory, type the corresponding genre: \n\
         \n\
-        'blues': 1.(1-9),\n\
-        'classical': 2.(1-9),\n\
-        'country': 3.(1-9),\n\
-        'electronic': 4.(1-9),\n\
+        --------------------------------------------------------------------------------------------------------------\n\
+        blues\n\
+        classical\n\
+        country\n\
+        electronic': 4.(1-9),\n\
         'folk': 5.(1-9),\n\
         'hip_hop': 6.(1-9),\n\
         'jazz': 7.(1-9),\n\
         'reggae': 8.(1-9),\n\
-        'rock': 9.(1-9), \n\
+        'rock': 9.(1-9),\n\
         \n\
-        Enter here: "))
-        
-        input_path = main["blues"]["classical"]["country"]["electronic"]["folk"]["hip_hop"]["jazz"]["reggae"]["rock"]
-        
-        if input == input_path:
-            print(main[input_path])
+        ---------------------------------------------------------------------------------------------------------------")
+        key = input("\n\
+        Please put quotations around your desired input. \n\
+        ")
+        print(interface.get(key))
+        for sub, serial in interface.keys():
+            print(sub)
+            print(serial)
+        break
+    user_input = main.keys
+    print(main[user_input])
+    for label, serial in user_input():
+        print(input("Now, type the corresponding serial. \n\
+                    The serials (which name subclasses) should be printed above this guide. \n\
+                    ------------------------------------\n\
+                    "))
+        if input == serial:
+            print(label)

@@ -10,6 +10,6 @@ Hello, and welcome to the PLAYLISTINATOR!
 
 But you can see it in action!
 ##
-  If I were to have made a filesystem interactor the continous loop it performs would have assigned an ifinite number of file interactions until the user commanded it to stop.
+  If I were to have made a filesystem interactor the continous loop it performs would have assigned an infinite number of file interactions until the user commanded it to stop.
  
   File organisation, and as an extension the genre organiser would have been sorted in a separate file named 'organiser', but the code behind it would've taken too long.
